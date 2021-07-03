@@ -1,0 +1,14 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ourclublogin.com Login Information",
+        "data": {
+          "id": "club ID",
+          "username": "username",
+          "password": "password"
+        }
+      }
+    }
+  }
+}

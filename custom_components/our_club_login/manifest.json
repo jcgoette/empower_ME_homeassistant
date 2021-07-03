@@ -1,0 +1,10 @@
+{
+  "codeowners": ["@jcgoette"],
+  "config_flow": true,
+  "documentation": "https://github.com/jcgoette/our_club_login_homeassistant",
+  "domain": "our_club_login",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/jcgoette/our_club_login_homeassistant/issues",
+  "name": "ourclublogin.com",
+  "version": "v1.0.0"
+}

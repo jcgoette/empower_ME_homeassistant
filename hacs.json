@@ -1,0 +1,6 @@
+{
+  "domains": "sensor",
+  "iot_class": "Cloud Polling",
+  "name": "ourclublogin.com",
+  "render_readme": true
+}
