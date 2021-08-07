@@ -9,6 +9,7 @@ import requests
 import voluptuous as vol
 from homeassistant.const import CONF_ID, CONF_PASSWORD, CONF_USERNAME
 from homeassistant.helpers.entity import Entity
+from homeassistant.helpers.typing import StateType
 
 from .const import ATTR_CHECK_IN_DATE, ATTR_DATETIME_FORMAT, ATTR_ICON, ATTR_URL, DOMAIN
 
@@ -42,17 +43,17 @@ class OurClubLoginSensor(Entity):
         self._data = self._our_club_login_data.data
 
     @property
-    def name(self):
+    def name(self) -> str:
         """Return the name of the ourclublogin.com sensor."""
         return f'Last {self._data.get("ClubName")} Check In'
 
     @property
-    def state(self):
+    def state(self) -> StateType:
         """Return the state of the ourclublogin.com sensor."""
         return self._data.get("CheckInDate")
 
     @property
-    def icon(self):
+    def icon(self) -> str:
         """Return the icon to use in ourclublogin.com frontend."""
         return ATTR_ICON
 
