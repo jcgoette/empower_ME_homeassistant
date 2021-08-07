@@ -7,5 +7,5 @@
   "issue_tracker": "https://github.com/jcgoette/our_club_login_homeassistant/issues",
   "name": "ourclublogin.com",
   "requirements": ["requests==2.26.0"],
-  "version": "v1.0.0"
+  "version": "v1.1.0"
 }
