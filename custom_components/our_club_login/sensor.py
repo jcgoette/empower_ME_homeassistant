@@ -53,7 +53,7 @@ class OurClubLoginSensor(Entity):
     @property
     def state(self) -> StateType:
         """Return the state of the ourclublogin.com sensor."""
-        return self._data.get("CheckInDate")
+        return self._data.get(ATTR_CHECK_IN_DATE)
 
     @property
     def icon(self) -> str:
