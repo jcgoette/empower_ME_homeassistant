@@ -56,6 +56,16 @@ class OurClubLoginSensor(Entity):
         return self._data.get(ATTR_CHECK_IN_DATE)
 
     @property
+    def state_class(self) -> str:
+        """Return the state class of the ourclublogin.com sensor."""
+        return STATE_CLASS_MEASUREMENT
+
+    @property
+    def device_class(self) -> str:
+        """Return the class of the ourclublogin.com sensor."""
+        return DEVICE_CLASS_TIMESTAMP
+
+    @property
     def icon(self) -> str:
         """Return the icon to use in ourclublogin.com frontend."""
         return ATTR_ICON
