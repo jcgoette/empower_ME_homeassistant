@@ -3,11 +3,14 @@ import logging
 import re
 from datetime import datetime, timedelta, timezone
 
-import homeassistant.helpers.config_validation as cv
-import homeassistant.util.dt as dt_util
 import requests
-import voluptuous as vol
-from homeassistant.const import CONF_ID, CONF_PASSWORD, CONF_USERNAME
+from homeassistant.components.sensor import STATE_CLASS_MEASUREMENT
+from homeassistant.const import (
+    CONF_ID,
+    CONF_PASSWORD,
+    CONF_USERNAME,
+    DEVICE_CLASS_TIMESTAMP,
+)
 from homeassistant.helpers.entity import Entity
 from homeassistant.helpers.typing import StateType
 
