@@ -1,0 +1,20 @@
+{
+  "ignorePaths": [
+    ".cspell.json",
+    ".github",
+    ".gitignore",
+    ".pyc",
+    "LICENSE",
+    "manifest.json"
+  ],
+  "ignoreWords": [
+    "astimezone",
+    "checkin",
+    "hacs",
+    "hass",
+    "homeassistant",
+    "isort",
+    "ourclublogin"
+  ],
+  "language": "en"
+}
