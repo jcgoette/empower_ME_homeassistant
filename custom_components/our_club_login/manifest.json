@@ -1,10 +1,10 @@
 {
   "codeowners": ["@jcgoette"],
   "config_flow": true,
-  "documentation": "https://github.com/jcgoette/our_club_login_homeassistant",
-  "domain": "our_club_login",
+  "documentation": "https://github.com/jcgoette/empower_ME_homeassistant",
+  "domain": "empower_ME",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/jcgoette/our_club_login_homeassistant/issues",
-  "name": "ourclublogin.com",
+  "issue_tracker": "https://github.com/jcgoette/empower_ME_homeassistant/issues",
+  "name": "Empower M.E.",
   "version": "v1.1.0"
 }
